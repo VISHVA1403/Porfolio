@@ -1,0 +1,66 @@
+.skills{
+    
+    margin: 0pt 40pt 0pt 40pt;
+}
+.title{
+    font-size: 32pt;
+    color: rgb(2, 178, 113);
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    margin: 0 30% 0 48%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+/* CSS */
+/* CSS */
+.skill:hover {
+    transition: all 0.3s ease;
+    box-shadow: 2pt 4px 10px 0pt rgba(31, 203, 255, 0.53), 2pt 6px 20px 0 rgba(255, 1, 1, 0.19);
+    color: rgb(255, 255, 255);
+  }
+  
+  
+.skillcontainer{
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border: 2pt solid white;
+    padding: 40px;
+    margin : 40pt 0 40pt 0;
+    background-color: rgb(44, 43, 43);
+    box-shadow: 1pt 1pt 20pt 1pt black inset;
+}
+.skill{
+    
+    display: block;
+    background-color: black;
+    color: aquamarine;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    padding: 36pt;
+    margin: 20pt;
+    border: 2pt solid white;
+    border-radius: 10pt;
+    max-width: fit-content;
+    float: auto;
+
+}
+
+.skillicon{
+    padding: auto;
+    height: auto;
+    max-width: 60pt;
+}
+.skill:hover .skillicon{
+    filter: drop-shadow(0pt 0pt 10pt rgba(127, 255, 212, 0.563));
+}
+.name{
+    text-align: center;
+    font-size: 11pt;
+    padding: 5pt;font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.container{
+    padding:10pt;
+    padding-left: 4%;
+    padding-right: 5%;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.373); */
+}
+.title{
+    font-size: 18px;
+    color :aliceblue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigations .Link{
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5pt;
+    text-decoration: none;
+    padding: 2pt;
+}

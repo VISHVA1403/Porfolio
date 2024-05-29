@@ -1,0 +1,94 @@
+.title{
+    font-size: 32pt;
+    color: rgb(2, 178, 113);
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    margin: 0 30% 0 44%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+.inputbox{
+    margin: 30pt;
+    border: 2pt solid white;
+    background-color: rgb(38, 38, 38);
+    padding: 20pt;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.left{
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 50%;
+}
+.box{
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+}
+.box label{
+    display: block;
+    font-size: 14pt;
+    font-family:monospace;
+
+}
+.box input{
+    width: 100%;
+    border: none;
+    padding: 5pt;
+    margin: 20pt;
+    color: black;
+    font-family:monospace;
+    font-size: 12pt;
+    border: 1pt solid black;
+    border-radius: 5pt;
+    margin-top: 10pt;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 60vh; /* Set height to 100% of the viewport height */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10pt; /* Optional: Add some padding for better spacing */
+    box-sizing: border-box; 
+}
+
+.right label {
+    color: white;
+    font-size: 14pt;
+    font-family: monospace;
+}
+
+.right textarea {
+    width: calc(100% - 20pt); 
+    height: calc(100% - 40pt); 
+    color: rgb(0, 0, 0);
+    padding: 10pt; 
+    font-family: monospace;
+    font-size: 12pt;
+    border: 1pt solid black;
+    border-radius: 5pt;
+    resize: none; 
+    box-sizing: border-box; 
+    margin-top: 10pt; 
+}
+
+.right button{
+    border: 1pt solid white;
+    background-color: aquamarine;
+    margin: 20pt;
+    height: 50pt;
+    width: 80pt;
+    border-radius: 5pt;
+}
+.right button:hover{
+    background-color: rgb(0, 145, 96);
+}

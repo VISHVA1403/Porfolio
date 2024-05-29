@@ -1,0 +1,131 @@
+.container{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    max-height: max-content;
+    background-color: black;
+    padding: 40pt;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 40pt;
+}
+.name{
+    font-size: 48pt;
+    text-align: left;
+    padding: 40pt;
+    padding-bottom: 5pt;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(23, 173, 98);
+}
+.name button{
+    display: flex;
+    font-size: 36pt;
+    background-color: rgb(23, 173, 98);
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300pt;
+    padding: 5pt;
+    border-radius: 5pt;
+}
+.name button img{
+    width: 30pt;
+    margin: 5pt;
+    height:30pt;
+}
+.passion{
+    font-size: 20pt;
+    text-align: left;
+    padding: 40pt;
+    padding-top: 0pt;
+    padding-left: 0pt;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
+    /* float: left; */
+}
+
+
+.profilepicture{
+    height: auto;
+    width: 250pt;
+    border-radius: 50%;
+    margin: 10pt;
+    border: 2pt solid white;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40pt;
+    margin: 40pt;
+}
+.profession{
+    display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: row;
+padding-bottom: 50pt;
+
+}
+
+.education{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 20pt;
+    border-radius: 10px;
+    border-style: inset;
+    padding-right: 70pt;
+    padding-left: 0pt;
+    background-color: rgb(44, 43, 43);
+    box-shadow: 1pt 1pt 10pt 1pt black inset;
+}
+.education2{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 20pt 100pt;
+    border-radius: 10px;
+    border-style: inset;
+    background-color: rgb(44, 43, 43);
+    box-shadow: 1pt 1pt 10pt 1pt black inset;
+}
+.educationtitle{
+    color:rgb(21, 175, 118);
+    text-decoration-line: underline;
+    font-size: 32pt;
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0 30% 0 44%;
+    padding: 20pt;
+}
+.degree{
+    color:rgb(21, 175, 118);
+    font-size: 18pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0 8% 0 8%;
+ 
+}
+.college{
+    color:white;
+    font-size: 14pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0 50% 0 18%;
+}
+.year{
+    color:white;
+    font-size: 14pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0 50% 0 40%;
+    padding: 5px;
+}

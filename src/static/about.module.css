@@ -1,0 +1,28 @@
+.about{
+    margin: 20pt;
+}
+.heading
+{
+    font-size: 32pt;
+    color: rgb(2, 178, 113);
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    margin: 0 30% 0 44%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+.container{
+    margin: 40pt;
+    background-color: rgb(46, 46, 46);
+    padding: 36pt;
+    font-size: 14pt;
+    border: 2pt solid white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 1pt 1pt 20pt 1pt black inset;
+    color: white;
+}
+.container p{
+    padding: 10pt;
+    padding-bottom: 12pt;
+}
